@@ -1,0 +1,38 @@
+/*font-family: 'Frank Ruhl Libre', sans-serif;*/
+/*font-family: 'Josefin Sans', sans-serif;*/
+header {
+	height: 800px;
+}
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-inverse {
+	background-color: rgb(32, 32, 32); 
+}
+
+
+.navbar-nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-nav > li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.carousel-control {
+	display: flex;
+	align-items: center;
+	width: 10%;
+}
+
+.left.carousel-control {
+	display: flex;
+	justify-content: flex-end;
+}
