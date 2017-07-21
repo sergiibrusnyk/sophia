@@ -1,38 +1,119 @@
 /*font-family: 'Frank Ruhl Libre', sans-serif;*/
+
+
 /*font-family: 'Josefin Sans', sans-serif;*/
-header {
-	height: 800px;
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: rgb(245, 152, 157);
+    font-size: 1.8rem;
 }
+
+p {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
 .navbar {
-	border-radius: 0;
-	margin-bottom: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    z-index: 100;
 }
 
 .navbar-inverse {
-	background-color: rgb(32, 32, 32); 
+    background-color: rgb(31, 31, 31);
+    border: none;
 }
 
 
 .navbar-nav {
-	width: 100%;
-	display: flex;
-	justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.navbar-nav > li {
+.navbar-nav>li {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
+    font-size: 1.2rem;
     text-transform: uppercase;
     padding-left: 20px;
 }
 
-.carousel-control {
-	display: flex;
-	align-items: center;
-	width: 10%;
+.navbar-nav li a {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.left.carousel-control {
-	display: flex;
-	justify-content: flex-end;
+
+.navbar-inverse .navbar-toggle {
+    border: none;
 }
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+.carousel-indicators li {
+    border-color: #000;
+    border-radius: 0px;
+    background-color: #000;
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(245, 152, 157);
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-caption {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-caption p {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: rgb(200, 255, 255);
+}
+
+.carousel-caption span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(245, 152, 157);
+}
+
+@media (max-width: 700px) {
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/*ABOUT SECTION*/
+
+.services {
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/SERVICES.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+
+.services-list img {}
